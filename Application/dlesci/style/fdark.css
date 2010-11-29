@@ -1,0 +1,35 @@
+#darkDiv {
+    position:absolute;
+	background-image:url(../image/grey.png);
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	left:0px;
+	top:0px;
+	visibility:hidden;
+	z-index:4;
+        color:#FFFFFF
+}
+#headerDiv{
+		font-size:12px;
+		font-weight:400;
+}
+#innerDiv {
+    position:absolute;
+}
+#dataDiv {
+
+	position:absolute;
+        border-top: solid 1px white;
+        padding: 10px;
+}
+.minilink
+{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+
+.minilink:hover
+{
+    color: red;
+}
